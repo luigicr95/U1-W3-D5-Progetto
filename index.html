@@ -11,25 +11,26 @@
     <div class="calculator">
       <input type="text" id="display-screen" disabled />
       <div id="calculator-buttons">
-        <button onclick="showOnDisplay('1')">1</button>
-        <button onclick="showOnDisplay('2')">2</button>
-        <button onclick="showOnDisplay('3')">3</button>
-        <button onclick="showOnDisplay('4')">4</button>
-        <button onclick="showOnDisplay('5')">5</button>
-        <button onclick="showOnDisplay('6')">6</button>
-        <button onclick="showOnDisplay('7')">7</button>
-        <button onclick="showOnDisplay('8')">8</button>
-        <button onclick="showOnDisplay('9')">9</button>
-        <button onclick="showOnDisplay('0')">0</button>
-        <button onclick="selectOperation('+')">+</button>
-        <button onclick="selectOperation('-')">-</button>
-        <button onclick="selectOperation('*')">*</button>
-        <button onclick="selectOperation('/')">/</button>
-        <button onclick="showResult()">=</button>
-        <button onclick="deleteEverything()">C</button>
+        <button onclick="digitalCalculator.showOnDisplay('1')">1</button>
+        <button onclick="digitalCalculator.showOnDisplay('2')">2</button>
+        <button onclick="digitalCalculator.showOnDisplay('3')">3</button>
+        <button onclick="digitalCalculator.showOnDisplay('4')">4</button>
+        <button onclick="digitalCalculator.showOnDisplay('5')">5</button>
+        <button onclick="digitalCalculator.showOnDisplay('6')">6</button>
+        <button onclick="digitalCalculator.showOnDisplay('7')">7</button>
+        <button onclick="digitalCalculator.showOnDisplay('8')">8</button>
+        <button onclick="digitalCalculator.showOnDisplay('9')">9</button>
+        <button onclick="digitalCalculator.showOnDisplay('0')">0</button>
+        <button onclick="digitalCalculator.selectOperation('+')">+</button>
+        <button onclick="digitalCalculator.selectOperation('-')">-</button>
+        <button onclick="digitalCalculator.selectOperation('*')">*</button>
+        <button onclick="digitalCalculator.selectOperation('/')">/</button>
+        <button onclick="digitalCalculator.showResult()">=</button>
+        <button onclick="digitalCalculator.deleteEverything()">C</button>
       </div>
     </div>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script-not-eval.js"></script>
+    <!--<script src="./js/script.js"></script>-->
   </body>
 </html>
